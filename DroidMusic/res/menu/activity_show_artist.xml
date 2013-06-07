@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_settings"
+        android:title="@string/menu_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+    <item android:id="@+id/show_artist_albums" android:title="@string/show_artist_albums"></item>
+    <item android:id="@+id/show_artist_graphs" android:title="@string/show_artist_graphs"></item>
+    <item android:id="@+id/show_artist_year" android:title="@string/showartistyear"></item><item android:id="@+id/share" android:title="@string/share"></item>
+    
+</menu>

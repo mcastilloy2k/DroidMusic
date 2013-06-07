@@ -1,0 +1,32 @@
+<resources>
+
+    <string name="app_name">DroidMusic</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Welcome to DroidMusic</string>
+    <string name="Button1">Search Now!</string>
+    <string name="title_activity_arstist_list">Artist Search Result</string>
+    <string name="Artistsearch">Insert the artist name</string>
+    <string name="artistHint">Artist Name</string>
+    <string name="title_activity_show_artist">ShowArtist</string>
+    <string name="show_artist_albums">Show Artist Albums</string>
+    <string name="show_artist_graphs">Show Graph Tracks Per Album</string>
+    <string name="share">Share Artist</string>
+    <string name="title_activity_share">Share Artist</string>
+    <string name="CDImagesShare">Favicon</string>
+    <string name="shareLastFM">Share LastFM Profile</string>
+    <string name="shareMB">Share MusicBrainz Profile</string>
+    <string name="title_activity_show_discography">Artist Discography</string>
+    <string name="title_activity_release_list">Release List</string>
+    <string name="title_activity_show_release">Show Release</string>
+    <string name="Title">Album Title</string>
+    <string name="Artist">Album Artist</string>
+    <string name="AlbumType">Type</string>
+    <string name="Date">Release Date</string>
+    <string name="AlbumTracks">Tracks</string>
+    <string name="CD">Number of CDs</string>
+    <string name="showartistyear">Show Graph Releases Per Year</string>
+    <string name="ShareRelease">Share Release on MusicBrainz</string>
+    <string name="ShareReleaseLastFM">Share Release on Last.fm</string>
+
+</resources>

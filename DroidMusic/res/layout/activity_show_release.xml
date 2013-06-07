@@ -1,0 +1,121 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/textViewAlbum1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="29dp"
+        android:layout_marginTop="44dp"
+        android:text="@string/Title"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textViewAlbum2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textViewAlbum1"
+        android:layout_below="@+id/textViewAlbum1"
+        android:layout_marginTop="24dp"
+        android:text="@string/Artist"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textViewAlbum4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textViewAlbum2"
+        android:layout_below="@+id/textViewAlbum2"
+        android:layout_marginTop="31dp"
+        android:text="@string/AlbumType"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textViewAlbum5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textViewAlbum4"
+        android:layout_below="@+id/textViewAlbum4"
+        android:layout_marginTop="30dp"
+        android:text="@string/Date"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textViewAlbum6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textViewAlbum5"
+        android:layout_below="@+id/textViewAlbum5"
+        android:layout_marginTop="32dp"
+        android:text="@string/AlbumTracks"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textViewAlbum7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textViewAlbum6"
+        android:layout_below="@+id/textViewAlbum6"
+        android:layout_marginTop="32dp"
+        android:text="@string/CD"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textViewAlbum06"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textViewAlbum1"
+        android:layout_alignBottom="@+id/textViewAlbum1"
+        android:layout_marginLeft="36dp"
+        android:layout_toRightOf="@+id/textViewAlbum7"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textViewAlbum05"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textViewAlbum4"
+        android:layout_alignLeft="@+id/textViewAlbum06"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textViewAlbum01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textViewAlbum4"
+        android:layout_alignBottom="@+id/textViewAlbum4"
+        android:layout_alignLeft="@+id/textViewAlbum05"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textViewAlbum02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textViewAlbum5"
+        android:layout_alignBottom="@+id/textViewAlbum5"
+        android:layout_alignLeft="@+id/textViewAlbum01"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textViewAlbum03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textViewAlbum6"
+        android:layout_alignBottom="@+id/textViewAlbum6"
+        android:layout_alignLeft="@+id/textViewAlbum02"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textViewAlbum04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textViewAlbum7"
+        android:layout_alignBottom="@+id/textViewAlbum7"
+        android:layout_alignLeft="@+id/textViewAlbum03"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</RelativeLayout>
